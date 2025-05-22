@@ -1,4 +1,4 @@
-package ec.edu.utpl.carreras.computacion.s7.tasks;
+package utpl.edu.ec.carreras.computacion.s7.tasks;
 
 import ec.edu.utpl.carreras.computacion.s7.model.ClimateRecord;
 import ec.edu.utpl.carreras.computacion.s7.model.ClimateSummary;
@@ -10,7 +10,6 @@ import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
 

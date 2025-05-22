@@ -1,9 +1,12 @@
-package ec.edu.utpl.carreras.computacion.s7;
+package utpl.edu.ec.carreras.computacion.s7;
 
 import ec.edu.utpl.carreras.computacion.s7.model.ClimateSummary;
 import ec.edu.utpl.carreras.computacion.s7.tasks.TaskSummarize;
 
-import java.util.concurrent.*;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 public class App {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
